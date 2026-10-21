@@ -3,11 +3,11 @@
   "manuscripts": {
     "jfec": {
       "file": "main.pdf",
-      "sha256": "8623ad95b43bd40eae545f1a863d2fd880f37a0c59ca6299f75d03736304d731"
+      "sha256": "fd3f924d09bad59b0667bf6055d73cd7fcf960b83be3f2963b2507df9a45b555"
     },
     "arxiv": {
       "file": "main_arxiv.pdf",
-      "sha256": "41ccd82bf9e84587cd82faa65cf5c9a9828f99afd73c18c0ac1a91dd200afb0c"
+      "sha256": "cc88d71a33a7f8ac27df9c1656672ea84b64dfc0f9006661aa86c7c1c442eabe"
     }
   },
   "simulation": {
