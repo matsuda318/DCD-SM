@@ -1,0 +1,1113 @@
+{
+  "all_available_checks_passed": true,
+  "requested": 38,
+  "checked": 38,
+  "missing": [],
+  "checks": [
+    {
+      "dataset": "sp500_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_fixed_pca1_residual",
+      "checks_passed": true,
+      "independent_derivatives": [
+        {
+          "model": "M2",
+          "score_relative_error": 8.069334397642878e-08,
+          "likelihood_hessian_relative_error": 8.994889178952864e-07,
+          "finite_difference_step": 0.001
+        },
+        {
+          "model": "M3",
+          "score_relative_error": 1.011199061435083e-08,
+          "likelihood_hessian_relative_error": 4.259124755695454e-06,
+          "finite_difference_step": 0.001
+        },
+        {
+          "model": "M4",
+          "score_relative_error": 7.003381406418964e-09,
+          "likelihood_hessian_relative_error": 1.06975653377555e-06,
+          "finite_difference_step": 0.001
+        },
+        {
+          "model": "M5",
+          "score_relative_error": 6.334479643585808e-09,
+          "likelihood_hessian_relative_error": 2.0282585023760146e-06,
+          "finite_difference_step": 0.001
+        }
+      ],
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 6.661338147750939e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_fixed_pca1_residual",
+      "checks_passed": true,
+      "independent_derivatives": [
+        {
+          "model": "M2",
+          "score_relative_error": 6.19656361448406e-08,
+          "likelihood_hessian_relative_error": 6.930637609473784e-07,
+          "finite_difference_step": 0.001
+        },
+        {
+          "model": "M3",
+          "score_relative_error": 3.704034057366681e-09,
+          "likelihood_hessian_relative_error": 2.177540042107602e-06,
+          "finite_difference_step": 0.001
+        },
+        {
+          "model": "M4",
+          "score_relative_error": 3.4154929937475277e-09,
+          "likelihood_hessian_relative_error": 7.108242997171038e-06,
+          "finite_difference_step": 0.001
+        },
+        {
+          "model": "M5",
+          "score_relative_error": 3.4341845497155438e-09,
+          "likelihood_hessian_relative_error": 1.4360843803520644e-06,
+          "finite_difference_step": 0.001
+        }
+      ],
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s10_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 2.6645352591003757e-15,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s10_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s15_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s15_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 2.7284841053187847e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s20_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 1.7763568394002505e-15,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s20_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 2.7284841053187847e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s25_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s25_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s30_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s30_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s35_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s35_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 1.1102230246251565e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s40_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s40_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s45_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 2.7284841053187847e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s45_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s50_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s50_fixed_pca1_residual",
+      "checks_passed": true,
+      "independent_derivatives": [
+        {
+          "model": "M2",
+          "score_relative_error": 1.5794844720242585e-05,
+          "likelihood_hessian_relative_error": 1.0730410011226382e-05,
+          "finite_difference_step": 0.001
+        },
+        {
+          "model": "M3",
+          "score_relative_error": 2.9483919671145237e-06,
+          "likelihood_hessian_relative_error": 6.1080141859875006e-06,
+          "finite_difference_step": 0.001
+        },
+        {
+          "model": "M4",
+          "score_relative_error": 8.163764990554698e-08,
+          "likelihood_hessian_relative_error": 9.223278293888274e-08,
+          "finite_difference_step": 0.001
+        },
+        {
+          "model": "M5",
+          "score_relative_error": 8.164637969203886e-08,
+          "likelihood_hessian_relative_error": 6.995672055435098e-08,
+          "finite_difference_step": 0.001
+        }
+      ],
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 5.329070518200751e-15,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s55_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 3.552713678800501e-15,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s55_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s60_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 1.7763568394002505e-15,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 1.7763568394002505e-15,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "sp500_s60_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n1_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n1_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n2_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n2_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 1.8189894035458565e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n3_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n3_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n4_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 2.220446049250313e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n4_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n5_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 8.881784197001252e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n5_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n6_fixed_pca1_raw_matched",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 4.440892098500626e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    },
+    {
+      "dataset": "n225_n6_fixed_pca1_residual",
+      "checks_passed": true,
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 2.7284841053187847e-12,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 1.1102230246251565e-16,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    }
+  ],
+  "likelihood": "sum of daily cross-sectional mean log densities; equal date weights"
+}

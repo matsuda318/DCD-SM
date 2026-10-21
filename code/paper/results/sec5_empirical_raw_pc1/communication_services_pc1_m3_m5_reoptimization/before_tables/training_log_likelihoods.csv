@@ -1,0 +1,3 @@
+dataset,label,family,role,model,training_log_likelihood,variant,base_dataset
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M3,5942.568484838992,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M5,5950.731712022193,pc1_residual,sp500_s50

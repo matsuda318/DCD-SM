@@ -1,0 +1,5 @@
+dataset,label,family,role,model,block,df,wald_valid,wald,wald_p,variant,base_dataset
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,False,,,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,18.9867695456892,0.0002751264175501,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,3.8757382886045177,0.2751985550222802,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,52.84731423048737,1.2593584478072983e-09,pc1_residual,sp500_s50

@@ -1,0 +1,73 @@
+{
+  "source_sha256": "22386278fa2ab72ffaf65d8a245e99d51670059674b33c58b66ddc6708a685ea",
+  "generator_source_sha256": "43fa3e5b774ae916f6ce3cb8e6ab0b17f157a7fdbc36a48019080735bca358c8",
+  "design": {
+    "training": 1886,
+    "oos": 642,
+    "burn": 500,
+    "seed": 20261006,
+    "common_share": 0.1,
+    "sample_sizes": [
+      1,
+      20,
+      50,
+      100
+    ]
+  },
+  "replications": 100,
+  "dgps": [
+    "case0_static",
+    "case1_eta",
+    "case2_even",
+    "case3_eta_even",
+    "case4_eta_even_odd"
+  ],
+  "cases": [
+    "iid",
+    "heterogeneous_factor"
+  ],
+  "estimation": "M1 static symmetric t -> M2 location/scale -> M3 eta; M4 after M2; M5 after M3",
+  "fisher_geometry": "recomputed at the fitted M1 anchor per setting; m/log variance removed, no whitening",
+  "inference": "conditional daily mean sandwich Wald(0); fitted upstream held fixed in downstream covariance",
+  "initialization": "same observed burn-in as the known-M2 run; excluded from M1 and dynamic likelihoods and Wald meat",
+  "unit_scale": 0.01,
+  "reported_score_units": "original generator return units",
+  "no_truth_in_estimation": true,
+  "score_oos": true,
+  "generation": "unchanged own-N generator, fixed SP500 coefficients times sqrt(N/500), same seed streams",
+  "calibration": {
+    "anchor": [
+      0.0,
+      0.0,
+      -5.047916853890772,
+      0.0
+    ],
+    "eta_kappa": [
+      -5.7457357231521895,
+      -4.81592306262939,
+      30.255739112088794
+    ],
+    "endpoint_kappa": [
+      [
+        -0.07490647551121857,
+        10.692708239563094,
+        259.19562117125366
+      ],
+      [
+        1.9760053323381974,
+        -4.297595833932288,
+        63.792928327083544
+      ]
+    ]
+  },
+  "expected_settings": 3500,
+  "environment": {
+    "python": "3.14.3 (main, Feb 12 2026, 00:39:15) [MSC v.1944 64 bit (AMD64)]",
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "numba": "0.68.0"
+    }
+  }
+}

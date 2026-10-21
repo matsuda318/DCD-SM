@@ -1,0 +1,325 @@
+{
+  "old_mean_nll": -3.1508846685254466,
+  "objective_scale": 1000000.0,
+  "bounds": [
+    [
+      -500.0,
+      500.0
+    ],
+    [
+      -500.0,
+      500.0
+    ],
+    [
+      -500.0,
+      500.0
+    ]
+  ],
+  "old_mean_hessian_eigenvalues": [
+    -1.4788017194325534e-05,
+    -3.697771435796769e-07,
+    1.3960903381748032e-06
+  ],
+  "starts": [
+    {
+      "start": 0,
+      "theta": [
+        -0.5278783821886809,
+        -0.2731796544215727,
+        0.23023548031761404
+      ],
+      "mean_nll": -3.1509208715960466,
+      "projected_gradient_max": 0.00038917844669199265,
+      "hessian_eigenvalues": [
+        -9278642.323738871,
+        -16.601301633713177,
+        29775254.763791133
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 1,
+      "theta": [
+        -0.5246881703584965,
+        -0.2761421078283322,
+        0.20758420906575475
+      ],
+      "mean_nll": -3.1509305341640457,
+      "projected_gradient_max": 0.0011732604992793925,
+      "hessian_eigenvalues": [
+        -342407.10660200956,
+        -41.658062633018204,
+        3292755.978437437
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 2,
+      "theta": [
+        -0.5278783821886809,
+        -0.2731796544215727,
+        0.23023548031761404
+      ],
+      "mean_nll": -3.1509208715960466,
+      "projected_gradient_max": 0.00038917844669199265,
+      "hessian_eigenvalues": [
+        -9278642.323738871,
+        -16.601301633713177,
+        29775254.763791133
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 3,
+      "theta": [
+        -0.5246881703584965,
+        -0.2761421078283322,
+        0.20758420906575475
+      ],
+      "mean_nll": -3.1509305341640457,
+      "projected_gradient_max": 0.0011732604992793925,
+      "hessian_eigenvalues": [
+        -342407.10660200956,
+        -41.658062633018204,
+        3292755.978437437
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 8,
+      "theta": [
+        0.04350366622879011,
+        0.587622031750115,
+        1.338523395098441
+      ],
+      "mean_nll": -3.15090190188254,
+      "projected_gradient_max": 1.6273449232550045e-11,
+      "hessian_eigenvalues": [
+        7.171368471197295e-06,
+        7.048338351041186e-05,
+        0.7399710333086095
+      ],
+      "success": false,
+      "accepted": true,
+      "message": "A bad approximation caused failure to predict improvement.",
+      "iterations": 47,
+      "evaluations": 49
+    },
+    {
+      "start": 9,
+      "theta": [
+        -0.5291390923631283,
+        -0.2712022558802439,
+        0.23177068262455297
+      ],
+      "mean_nll": -3.150920336715641,
+      "projected_gradient_max": 0.0003673438189553206,
+      "hessian_eigenvalues": [
+        -8651461.456959356,
+        -16.47568813489951,
+        28207188.979618557
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 14,
+      "theta": [
+        -0.5342953792861215,
+        -0.2636155836759754,
+        0.2396887623017564
+      ],
+      "mean_nll": -3.1509175602514583,
+      "projected_gradient_max": 0.0003427016226575712,
+      "hessian_eigenvalues": [
+        -3791839.0964728734,
+        -14.391085340041384,
+        13870194.851998188
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 15,
+      "theta": [
+        -0.5375760264156062,
+        -0.25716814849547437,
+        0.22930637724208325
+      ],
+      "mean_nll": -3.150921426674012,
+      "projected_gradient_max": 0.004253162164606976,
+      "hessian_eigenvalues": [
+        -94566903000.81357,
+        -24.34361818219166,
+        317395524273.3749
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "A bad approximation caused failure to predict improvement.",
+      "iterations": 71,
+      "evaluations": 70
+    },
+    {
+      "start": 16,
+      "theta": [
+        0.043503665841570546,
+        0.5876220300745296,
+        1.3385234003912518
+      ],
+      "mean_nll": -3.150901901882541,
+      "projected_gradient_max": 3.956410939678782e-12,
+      "hessian_eigenvalues": [
+        7.172200304276836e-06,
+        7.047929433125383e-05,
+        0.739971514466537
+      ],
+      "success": true,
+      "accepted": true,
+      "message": "Optimization terminated successfully.",
+      "iterations": 66,
+      "evaluations": 67
+    },
+    {
+      "start": 17,
+      "theta": [
+        0.019421323896539857,
+        -0.966692873261997,
+        0.836934039556731
+      ],
+      "mean_nll": -3.151060044236332,
+      "projected_gradient_max": 0.2773132688821269,
+      "hessian_eigenvalues": [
+        -0.9537422052124485,
+        -0.16868088731899814,
+        419895.4944552965
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 20,
+      "theta": [
+        -0.5225007603260642,
+        -0.2803216231473071,
+        0.2096191515594577
+      ],
+      "mean_nll": -3.150929324077317,
+      "projected_gradient_max": 0.001547198172374417,
+      "hessian_eigenvalues": [
+        -231692.09362550863,
+        -48.24481011521296,
+        2807723.5541428356
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 21,
+      "theta": [
+        -0.5462413076923002,
+        -0.24433904901401193,
+        0.22783902062078606
+      ],
+      "mean_nll": -3.150921853194673,
+      "projected_gradient_max": 0.0014747513967433782,
+      "hessian_eigenvalues": [
+        -163723.1050696462,
+        -2.935176690700891,
+        2309819.8087712596
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 22,
+      "theta": [
+        -0.38220686920270575,
+        -0.5581390531649163,
+        0.18710460209742902
+      ],
+      "mean_nll": -3.151002192143624,
+      "projected_gradient_max": 1.200666609713511,
+      "hessian_eigenvalues": [
+        -120618.37005984392,
+        -1.2455596294859665,
+        1061642.0488096052
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 23,
+      "theta": [
+        -0.5524459190745903,
+        -0.23811053420540101,
+        0.24195897881003892
+      ],
+      "mean_nll": -3.150916605950113,
+      "projected_gradient_max": 0.00033575860427324463,
+      "hessian_eigenvalues": [
+        -48665.09951585497,
+        2.877660814226002,
+        1368568.733938782
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    },
+    {
+      "start": 24,
+      "theta": [
+        -0.3861593121323141,
+        -0.5514074783569302,
+        0.1857548955732227
+      ],
+      "mean_nll": -3.1510022686569115,
+      "projected_gradient_max": 1.0084084110539588,
+      "hessian_eigenvalues": [
+        -99210.55037638455,
+        0.9464075624243987,
+        905251.1328519685
+      ],
+      "success": false,
+      "accepted": false,
+      "message": "Maximum number of iterations has been exceeded.",
+      "iterations": 120,
+      "evaluations": 121
+    }
+  ]
+}

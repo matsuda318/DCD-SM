@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.nbi
+*.nbc
+.pytest_cache/
+.venv/
+# Reader downloads and locally prepared estimation inputs.
+/code/data/
+code/work/
+code/paper/tables/
+

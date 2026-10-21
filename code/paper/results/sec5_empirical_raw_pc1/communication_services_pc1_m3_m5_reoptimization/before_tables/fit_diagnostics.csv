@@ -1,0 +1,3 @@
+dataset,model,projected_gradient_max,successful_starts,total_starts,largest_successful_objective_gap
+sp500_s50_fixed_pca1_residual,M3,1.4494999817278682e-06,1,9,0.0
+sp500_s50_fixed_pca1_residual,M5,1.0292755019919649e-09,5,5,1.0484065091770356e-10

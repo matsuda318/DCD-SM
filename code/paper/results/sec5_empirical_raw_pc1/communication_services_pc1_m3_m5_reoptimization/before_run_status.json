@@ -1,0 +1,161 @@
+{
+  "schema": "symmetric-t-frozen-upstream-daily-mean-wald0-v1",
+  "source_hash": "a48d7f3eb03448d44d4d27d7cba4091135d137716ef72d49cee46e5f37ec67bf",
+  "requested": 38,
+  "completed": 38,
+  "datasets": [
+    {
+      "dataset": "sp500_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "n225_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "n225_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s10_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s10_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s15_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s15_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s20_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s20_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s25_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s25_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s30_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s30_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s35_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s35_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s40_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s40_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s45_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s45_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s50_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s50_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s55_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s55_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s60_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "sp500_s60_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n1_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n1_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n2_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n2_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n3_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n3_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n4_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n4_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n5_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n5_fixed_pca1_residual",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n6_fixed_pca1_raw_matched",
+      "complete": true
+    },
+    {
+      "dataset": "n225_n6_fixed_pca1_residual",
+      "complete": true
+    }
+  ],
+  "invalid_wald": 1
+}

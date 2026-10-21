@@ -1,0 +1,16 @@
+{
+  "dataset": "sp500_s50_fixed_pca1_residual",
+  "original_sha256": "a86cc9b0b9aec94861f5359ce0debc9db9adefcbc69fb975b84302c08ca6a66c",
+  "script_sha256": "afa6e54180472db78a6c8beee496898dbad8b82949b47dd2c35aee6426f7b100",
+  "unchanged_models": [
+    "M1",
+    "M2",
+    "M4"
+  ],
+  "refitted_models": [
+    "M3",
+    "M5"
+  ],
+  "input_sha256": "fc3207ae244032388dc49ba053df0c6399cc4738e4aa0cfd1b693f4f931044bb",
+  "criterion_unchanged": true
+}

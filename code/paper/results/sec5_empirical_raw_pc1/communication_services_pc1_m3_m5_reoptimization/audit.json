@@ -1,0 +1,92 @@
+{
+  "all_available_checks_passed": true,
+  "requested": 1,
+  "checked": 1,
+  "missing": [],
+  "checks": [
+    {
+      "dataset": "sp500_s50_fixed_pca1_residual",
+      "checks_passed": true,
+      "independent_derivatives": [
+        {
+          "model": "M2",
+          "score_relative_error": 5.346775248722778e-09,
+          "likelihood_hessian_relative_error": 0.00010412828077401447,
+          "finite_difference_step": 1e-05,
+          "prior_step_failures": [
+            {
+              "step": 0.0001,
+              "reason": "('sp500_s50_fixed_pca1_residual', 'M3', 0.0005075222155141857)"
+            }
+          ]
+        },
+        {
+          "model": "M3",
+          "score_relative_error": 5.077767480407237e-06,
+          "likelihood_hessian_relative_error": 3.579949331393509e-05,
+          "finite_difference_step": 1e-05,
+          "prior_step_failures": [
+            {
+              "step": 0.0001,
+              "reason": "('sp500_s50_fixed_pca1_residual', 'M3', 0.0005075222155141857)"
+            }
+          ]
+        },
+        {
+          "model": "M4",
+          "score_relative_error": 1.372836747364399e-09,
+          "likelihood_hessian_relative_error": 0.00044465146219613635,
+          "finite_difference_step": 1e-05,
+          "prior_step_failures": [
+            {
+              "step": 0.0001,
+              "reason": "('sp500_s50_fixed_pca1_residual', 'M3', 0.0005075222155141857)"
+            }
+          ]
+        },
+        {
+          "model": "M5",
+          "score_relative_error": 1.419195411646036e-09,
+          "likelihood_hessian_relative_error": 0.00040035794417154634,
+          "finite_difference_step": 1e-05,
+          "prior_step_failures": [
+            {
+              "step": 0.0001,
+              "reason": "('sp500_s50_fixed_pca1_residual', 'M3', 0.0005075222155141857)"
+            }
+          ]
+        }
+      ],
+      "static_daily_mean_likelihood_error": 0.0,
+      "equal_date_criterion": [
+        {
+          "model": "M2",
+          "daily_mean_likelihood_error": 9.094947017729282e-13,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M3",
+          "daily_mean_likelihood_error": 0.0,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M4",
+          "daily_mean_likelihood_error": 5.329070518200751e-15,
+          "daily_mean_score_meat_checked": true
+        },
+        {
+          "model": "M5",
+          "daily_mean_likelihood_error": 3.552713678800501e-15,
+          "daily_mean_score_meat_checked": true
+        }
+      ]
+    }
+  ],
+  "likelihood": "sum of daily cross-sectional mean log densities; equal date weights",
+  "unchanged_models_verified": [
+    "M1",
+    "M2",
+    "M4"
+  ],
+  "M3_likelihood_gain": 0.03250211148042581
+}

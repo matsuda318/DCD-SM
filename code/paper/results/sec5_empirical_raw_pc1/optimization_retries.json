@@ -1,0 +1,179 @@
+[
+  {
+    "dataset": "sp500_s50_fixed_pca1_residual",
+    "recovered": true,
+    "searches": [
+      {
+        "model": "M3",
+        "original_failure": "M3: no converged optimizer start: [{'success': True, 'accepted': False, 'message': 'CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH', 'iterations': 4, 'evaluations': 23, 'mean_nll': -3.150887050334717, 'projected_gradient_max': 3.6585462998642062e-06}, {'success': True, 'accepted': False, 'message': 'CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL', 'iterations': 0, 'evaluations': 1, 'mean_nll': 1e+100, 'projected_gradient_max': 0.0}, {'success': True, 'accepted': False, 'message': 'CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL', 'iterations': 0, 'evaluations': 1, 'mean_nll': 1e+100, 'projected_gradient_max': 0.0}, {'success': True, 'accepted': False, 'message': 'CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL', 'iterations': 0, 'evaluations': 1, 'mean_nll': 1e+100, 'projected_gradient_max': 0.0}, {'success': True, 'accepted': False, 'message': 'CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL', 'iterations': 0, 'evaluations': 1, 'mean_nll': 1e+100, 'projected_gradient_max': 0.0}]",
+        "additional_starts": [
+          [
+            -0.34982729647193544,
+            -0.22515420148635368,
+            0.04018938015913971
+          ],
+          [
+            6.240434629281187e-08,
+            -1.0797510361881987e-06,
+            4.161988555960529e-07
+          ],
+          [
+            -6.240434629281187e-08,
+            1.0797510361881987e-06,
+            -4.161988555960529e-07
+          ],
+          [
+            6.535660602843927e-05,
+            -4.6282606070930315e-05,
+            -8.64798496190741e-05
+          ],
+          [
+            -6.535660602843927e-05,
+            4.6282606070930315e-05,
+            8.64798496190741e-05
+          ],
+          [
+            -0.005474308564500113,
+            0.006421755245593915,
+            0.002317522139018063
+          ],
+          [
+            0.005474308564500113,
+            -0.006421755245593915,
+            -0.002317522139018063
+          ],
+          [
+            0.03350656629747888,
+            0.17698186565514903,
+            -0.02563837268986909
+          ],
+          [
+            -0.03350656629747888,
+            -0.17698186565514903,
+            0.02563837268986909
+          ]
+        ],
+        "recovered_diagnostics": {
+          "theta": [
+            0.033505188573559504,
+            0.17698138402892905,
+            -0.025636923185447056
+          ],
+          "mean_nll": -3.1508846685254466,
+          "projected_gradient_max": 1.4494999817278682e-06,
+          "successful_starts": 1,
+          "total_starts": 9,
+          "largest_successful_objective_gap": 0.0,
+          "starts": [
+            {
+              "success": true,
+              "accepted": false,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "iterations": 3,
+              "evaluations": 12,
+              "mean_nll": -3.1508873927189125,
+              "projected_gradient_max": 3.5416776537560418e-06
+            },
+            {
+              "success": true,
+              "accepted": false,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "iterations": 4,
+              "evaluations": 23,
+              "mean_nll": -3.1508870503367494,
+              "projected_gradient_max": 3.658525000322213e-06
+            },
+            {
+              "success": true,
+              "accepted": false,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "iterations": 4,
+              "evaluations": 23,
+              "mean_nll": -3.1508870503326842,
+              "projected_gradient_max": 3.6585676037406006e-06
+            },
+            {
+              "success": true,
+              "accepted": false,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "iterations": 4,
+              "evaluations": 23,
+              "mean_nll": -3.150887050031919,
+              "projected_gradient_max": 3.6561259678260387e-06
+            },
+            {
+              "success": true,
+              "accepted": false,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "iterations": 4,
+              "evaluations": 23,
+              "mean_nll": -3.1508870506374573,
+              "projected_gradient_max": 3.6609667652740438e-06
+            },
+            {
+              "success": true,
+              "accepted": false,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "iterations": 4,
+              "evaluations": 23,
+              "mean_nll": -3.1508870690844764,
+              "projected_gradient_max": 3.782761722941725e-06
+            },
+            {
+              "success": true,
+              "accepted": false,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "iterations": 4,
+              "evaluations": 23,
+              "mean_nll": -3.1508870312622586,
+              "projected_gradient_max": 3.531498524589783e-06
+            },
+            {
+              "success": true,
+              "accepted": true,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "iterations": 2,
+              "evaluations": 4,
+              "mean_nll": -3.1508846685254466,
+              "projected_gradient_max": 1.4494999817278682e-06
+            },
+            {
+              "success": true,
+              "accepted": false,
+              "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+              "iterations": 12,
+              "evaluations": 57,
+              "mean_nll": -3.1509114199175334,
+              "projected_gradient_max": 0.9669403373925747
+            }
+          ],
+          "additional_start_recovery": true,
+          "original_start_failure": "M3: no converged optimizer start: [{'success': True, 'accepted': False, 'message': 'CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH', 'iterations': 4, 'evaluations': 23, 'mean_nll': -3.150887050334717, 'projected_gradient_max': 3.6585462998642062e-06}, {'success': True, 'accepted': False, 'message': 'CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL', 'iterations': 0, 'evaluations': 1, 'mean_nll': 1e+100, 'projected_gradient_max': 0.0}, {'success': True, 'accepted': False, 'message': 'CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL', 'iterations': 0, 'evaluations': 1, 'mean_nll': 1e+100, 'projected_gradient_max': 0.0}, {'success': True, 'accepted': False, 'message': 'CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL', 'iterations': 0, 'evaluations': 1, 'mean_nll': 1e+100, 'projected_gradient_max': 0.0}, {'success': True, 'accepted': False, 'message': 'CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL', 'iterations': 0, 'evaluations': 1, 'mean_nll': 1e+100, 'projected_gradient_max': 0.0}]"
+        },
+        "optimizer_options": {
+          "maxiter": 2000,
+          "ftol": 1e-14,
+          "gtol": 2e-08,
+          "maxls": 70,
+          "maxcor": 15
+        },
+        "projected_gradient_acceptance": 2e-06,
+        "bounds": [
+          [
+            -500.0,
+            500.0
+          ],
+          [
+            -500.0,
+            500.0
+          ],
+          [
+            -500.0,
+            500.0
+          ]
+        ]
+      }
+    ],
+    "retry_source_sha256": "31b6df7094bcada33d871a768912c04f4a7729e51fdffad28f253a344571a070"
+  }
+]

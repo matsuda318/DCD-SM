@@ -1,0 +1,571 @@
+dataset,label,family,role,model,block,df,wald_valid,wald,wald_p,variant,base_dataset
+sp500,S&P 500,S&P 500,main,M2,location,3,True,11.466050097142656,0.0094551212130899,original_raw,sp500
+sp500,S&P 500,S&P 500,main,M2,scale,3,True,226.76917109411173,6.90772215743385e-49,original_raw,sp500
+sp500,S&P 500,S&P 500,main,M2,joint,6,True,250.77398126853143,2.802359209859758e-51,original_raw,sp500
+sp500,S&P 500,S&P 500,main,M3,eta,3,True,22.52825115383484,5.063942783150533e-05,original_raw,sp500
+sp500,S&P 500,S&P 500,main,M4,even,3,True,44.18597786993927,1.377951970549662e-09,original_raw,sp500
+sp500,S&P 500,S&P 500,main,M4,odd,3,True,9.828567229117224,0.0200810217040716,original_raw,sp500
+sp500,S&P 500,S&P 500,main,M4,joint,6,True,77.22098894162771,1.3382663260595311e-14,original_raw,sp500
+sp500,S&P 500,S&P 500,main,M5,even,3,True,89.07573883216786,3.459910399972555e-19,original_raw,sp500
+sp500,S&P 500,S&P 500,main,M5,odd,3,True,8.020629175619199,0.0455872812067903,original_raw,sp500
+sp500,S&P 500,S&P 500,main,M5,joint,6,True,109.20254229524384,2.993981678414154e-21,original_raw,sp500
+n225,Nikkei 225,N225,main,M2,location,3,True,1.5350178548121367,0.6742121277557542,original_raw,n225
+n225,Nikkei 225,N225,main,M2,scale,3,True,95.65777462227864,1.3333657959581226e-20,original_raw,n225
+n225,Nikkei 225,N225,main,M2,joint,6,True,99.46865606115502,3.2389056513254887e-19,original_raw,n225
+n225,Nikkei 225,N225,main,M3,eta,3,True,18.2924412091356,0.0003827960583913,original_raw,n225
+n225,Nikkei 225,N225,main,M4,even,3,True,18.93788176839348,0.000281604539239,original_raw,n225
+n225,Nikkei 225,N225,main,M4,odd,3,True,2.598424427924842,0.4577658319694089,original_raw,n225
+n225,Nikkei 225,N225,main,M4,joint,6,True,30.1117607504604,3.743121293327805e-05,original_raw,n225
+n225,Nikkei 225,N225,main,M5,even,3,True,18.096723731818933,0.0004201005430199,original_raw,n225
+n225,Nikkei 225,N225,main,M5,odd,3,True,3.1356258746669043,0.3711833329686713,original_raw,n225
+n225,Nikkei 225,N225,main,M5,joint,6,True,27.70840153965992,0.0001066177384004,original_raw,n225
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M2,location,3,True,0.2247081892765678,0.973505307951479,original_raw,sp500_s10
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M2,scale,3,True,121.90532421215266,2.9996204785716634e-26,original_raw,sp500_s10
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M2,joint,6,True,123.89201398614938,2.4786029270530352e-24,original_raw,sp500_s10
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M3,eta,3,True,28.39306092443077,3.0035192310446417e-06,original_raw,sp500_s10
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M4,even,3,True,16.353536003528202,0.0009595859692094,original_raw,sp500_s10
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M4,odd,3,True,13.612858742111818,0.0034824085068375,original_raw,sp500_s10
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M4,joint,6,True,26.19405176445361,0.0002048513546768,original_raw,sp500_s10
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M5,even,3,True,18.10079411774734,0.0004192890691253,original_raw,sp500_s10
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M5,odd,3,True,2.548626330425328,0.4665672756668255,original_raw,sp500_s10
+sp500_s10,SP500 Energy,S&P 500 sectors,main,M5,joint,6,True,19.617397134272093,0.0032385806596044,original_raw,sp500_s10
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M2,location,3,True,13.29188709210586,0.0040460781492167,original_raw,sp500_s15
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M2,scale,3,True,160.320512165382,1.563009924260519e-34,original_raw,sp500_s15
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M2,joint,6,True,180.7053755641658,2.4032058486622163e-36,original_raw,sp500_s15
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M3,eta,3,True,14.56614469404787,0.0022275773356042,original_raw,sp500_s15
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M4,even,3,True,9.41763919931742,0.0242238771771428,original_raw,sp500_s15
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M4,odd,3,True,4.3419215174020245,0.226831406665978,original_raw,sp500_s15
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M4,joint,6,True,27.51732704692627,0.0001158088363174,original_raw,sp500_s15
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M5,even,3,True,9.638736120901648,0.0219003351928708,original_raw,sp500_s15
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M5,odd,3,True,2.437788753489248,0.4866390244823688,original_raw,sp500_s15
+sp500_s15,SP500 Materials,S&P 500 sectors,main,M5,joint,6,True,23.32171004520118,0.0006955878324854,original_raw,sp500_s15
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M2,location,3,True,5.71970024937604,0.1260729279661269,original_raw,sp500_s20
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M2,scale,3,True,162.14803255462022,6.303068736431928e-35,original_raw,sp500_s20
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M2,joint,6,True,173.01463634638964,1.0314888481526579e-34,original_raw,sp500_s20
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M3,eta,3,True,16.700027158511663,0.0008145663913617,original_raw,sp500_s20
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M4,even,3,True,44.35419542300665,1.269101189626913e-09,original_raw,sp500_s20
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M4,odd,3,True,10.829040585289349,0.0126871653530442,original_raw,sp500_s20
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M4,joint,6,True,79.98844743748498,3.5925516427682495e-15,original_raw,sp500_s20
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M5,even,3,True,52.53948052589816,2.2983795362807954e-11,original_raw,sp500_s20
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M5,odd,3,True,9.927149099913224,0.0191956544008533,original_raw,sp500_s20
+sp500_s20,SP500 Industrials,S&P 500 sectors,main,M5,joint,6,True,72.38462924427272,1.3245481178309624e-13,original_raw,sp500_s20
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M2,location,3,True,5.15948453496552,0.1604845357274547,original_raw,sp500_s25
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M2,scale,3,True,221.3614377057516,1.0195637694938736e-47,original_raw,sp500_s25
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M2,joint,6,True,235.42204313741132,5.3301051815476437e-48,original_raw,sp500_s25
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M3,eta,3,True,19.80208612970664,0.0001865508425969,original_raw,sp500_s25
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M4,even,3,True,55.23241034386142,6.125356597661391e-12,original_raw,sp500_s25
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M4,odd,3,True,123.77233300904182,1.188224444127883e-26,original_raw,sp500_s25
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M4,joint,6,True,160.92034012753572,3.780229789329898e-32,original_raw,sp500_s25
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M5,even,3,True,9.028416101521104,0.0289154550076192,original_raw,sp500_s25
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M5,odd,3,True,2.741306540861613,0.4332532590452344,original_raw,sp500_s25
+sp500_s25,SP500 Consumer Discretionary,S&P 500 sectors,main,M5,joint,6,True,33.914274202655825,6.988723636102454e-06,original_raw,sp500_s25
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M2,location,3,True,2.787770891363517,0.4255170046389026,original_raw,sp500_s30
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M2,scale,3,True,197.5256209033723,1.4447423354921298e-42,original_raw,sp500_s30
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M2,joint,6,True,202.5232932203885,5.508872787787343e-41,original_raw,sp500_s30
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M3,eta,3,True,8.926132079295481,0.030289294521219,original_raw,sp500_s30
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M4,even,3,True,17.608584926172664,0.0005296483115085,original_raw,sp500_s30
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M4,odd,3,True,6.56471637387126,0.087144894417054,original_raw,sp500_s30
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M4,joint,6,True,23.72332431135717,0.0005871204980137,original_raw,sp500_s30
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M5,even,3,True,18.3990255933518,0.0003638860626879,original_raw,sp500_s30
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M5,odd,3,True,5.937708051771739,0.1146805084253769,original_raw,sp500_s30
+sp500_s30,SP500 Consumer Staples,S&P 500 sectors,main,M5,joint,6,True,26.34319567652915,0.0001921376485208,original_raw,sp500_s30
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M2,location,3,True,5.436524304746104,0.1424848461126941,original_raw,sp500_s35
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M2,scale,3,True,182.66684938883577,2.341670972965792e-39,original_raw,sp500_s35
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M2,joint,6,True,195.33630656947207,1.864784206257188e-39,original_raw,sp500_s35
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M3,eta,3,True,29.182995115642903,2.049655722760042e-06,original_raw,sp500_s35
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M4,even,3,True,33.20573563186283,2.914380674270807e-07,original_raw,sp500_s35
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M4,odd,3,True,6.057562066690041,0.1088430436554363,original_raw,sp500_s35
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M4,joint,6,True,53.99783680867432,7.384564201405104e-10,original_raw,sp500_s35
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M5,even,3,True,34.66462939598919,1.434105770213728e-07,original_raw,sp500_s35
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M5,odd,3,True,6.528341063062521,0.0885514784585706,original_raw,sp500_s35
+sp500_s35,SP500 Health Care,S&P 500 sectors,main,M5,joint,6,True,44.82428104434901,5.0719491753538873e-08,original_raw,sp500_s35
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M2,location,3,True,9.382372689133748,0.0246162108878451,original_raw,sp500_s40
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M2,scale,3,True,182.25871669706177,2.8686019141523156e-39,original_raw,sp500_s40
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M2,joint,6,True,203.3945316518197,3.5939130869134513e-41,original_raw,sp500_s40
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M3,eta,3,True,30.671543184218773,9.967611415296248e-07,original_raw,sp500_s40
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M4,even,3,True,29.69089836559079,1.602898589735323e-06,original_raw,sp500_s40
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M4,odd,3,True,7.2481749432957026,0.0643944852992957,original_raw,sp500_s40
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M4,joint,6,True,55.79489075747338,3.2025954577034904e-10,original_raw,sp500_s40
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M5,even,3,True,28.94645197484908,2.2982060715343698e-06,original_raw,sp500_s40
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M5,odd,3,True,6.09920830095002,0.1068820310180168,original_raw,sp500_s40
+sp500_s40,SP500 Financials,S&P 500 sectors,main,M5,joint,6,True,37.55679980578403,1.371215268126514e-06,original_raw,sp500_s40
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M2,location,3,True,21.360539796045494,8.859898966542231e-05,original_raw,sp500_s45
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M2,scale,3,True,221.3301335596304,1.0355750218774336e-47,original_raw,sp500_s45
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M2,joint,6,True,253.32245979271323,7.995423730240284e-52,original_raw,sp500_s45
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M3,eta,3,True,46.99410930084692,3.4856491227932036e-10,original_raw,sp500_s45
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M4,even,3,True,29.23003864657856,2.003519225826243e-06,original_raw,sp500_s45
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M4,odd,3,True,3.5207414826073093,0.3180819670232487,original_raw,sp500_s45
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M4,joint,6,True,31.37213331407035,2.1521017121550288e-05,original_raw,sp500_s45
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M5,even,3,True,45.12358131553021,8.709714923236057e-10,original_raw,sp500_s45
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M5,odd,3,True,3.4614089689660617,0.3258018471905349,original_raw,sp500_s45
+sp500_s45,SP500 Information Technology,S&P 500 sectors,main,M5,joint,6,True,48.79114065817284,8.209132014912488e-09,original_raw,sp500_s45
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M2,location,3,True,0.1081908677655515,0.990836690697138,original_raw,sp500_s50
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M2,scale,3,True,142.96450161436175,8.673884190075583e-31,original_raw,sp500_s50
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M2,joint,6,True,146.02685476146797,5.349851071070255e-29,original_raw,sp500_s50
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M3,eta,3,True,19.00101131731424,0.0002732672823932,original_raw,sp500_s50
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M4,even,3,True,29.10246283995665,2.1311091281491217e-06,original_raw,sp500_s50
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M4,odd,3,True,6.003149330960509,0.1114571037889516,original_raw,sp500_s50
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M4,joint,6,True,52.70490853864527,1.3452940770543943e-09,original_raw,sp500_s50
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M5,even,3,True,19.070649682114457,0.000264355059372,original_raw,sp500_s50
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M5,odd,3,True,3.770013468332751,0.287393386995723,original_raw,sp500_s50
+sp500_s50,SP500 Communication Services,S&P 500 sectors,main,M5,joint,6,True,20.11849542778869,0.0026380427002703,original_raw,sp500_s50
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M2,location,3,True,0.2102191424449665,0.9759229596064374,original_raw,sp500_s55
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M2,scale,3,True,116.73047761238443,3.9039555492355015e-25,original_raw,sp500_s55
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M2,joint,6,True,118.1821444356732,3.9244931219734793e-23,original_raw,sp500_s55
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M3,eta,3,True,4.735874424625821,0.1921913332378515,original_raw,sp500_s55
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M4,even,3,True,28.18047502811329,3.328630689830376e-06,original_raw,sp500_s55
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M4,odd,3,True,3.905512961882617,0.2718494416002308,original_raw,sp500_s55
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M4,joint,6,True,35.410889956307784,3.5873065187185013e-06,original_raw,sp500_s55
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M5,even,3,True,28.134358018251024,3.4036669576131367e-06,original_raw,sp500_s55
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M5,odd,3,True,3.287986040185829,0.3493182675986878,original_raw,sp500_s55
+sp500_s55,SP500 Utilities,S&P 500 sectors,main,M5,joint,6,True,38.52243450880865,8.878044904744308e-07,original_raw,sp500_s55
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M2,location,3,True,4.086380344569863,0.252286416702925,original_raw,sp500_s60
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M2,scale,3,True,192.3650395555848,1.8823737218309e-41,original_raw,sp500_s60
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M2,joint,6,True,204.35528835533063,2.2438559500112223e-41,original_raw,sp500_s60
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M3,eta,3,True,4.872652130293222,0.1813632397931344,original_raw,sp500_s60
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M4,even,3,True,16.74018918219329,0.0007992334231417,original_raw,sp500_s60
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M4,odd,3,True,14.88624906432117,0.0019164828410632,original_raw,sp500_s60
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M4,joint,6,True,85.4230548458114,2.697792435376879e-16,original_raw,sp500_s60
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M5,even,3,True,26.247390164338373,8.464957753134539e-06,original_raw,sp500_s60
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M5,odd,3,True,26.08109143520535,9.171723870128571e-06,original_raw,sp500_s60
+sp500_s60,SP500 Real Estate,S&P 500 sectors,main,M5,joint,6,True,117.17754823680404,6.37734476954674e-23,original_raw,sp500_s60
+n225_n1,N225 Technology,N225 sectors,main,M2,location,3,True,4.151184546828653,0.2455949076462606,original_raw,n225_n1
+n225_n1,N225 Technology,N225 sectors,main,M2,scale,3,True,91.52428123329462,1.0307011857511941e-19,original_raw,n225_n1
+n225_n1,N225 Technology,N225 sectors,main,M2,joint,6,True,100.27230772262588,2.2015938884792774e-19,original_raw,n225_n1
+n225_n1,N225 Technology,N225 sectors,main,M3,eta,3,True,23.19737952104244,3.673254113938989e-05,original_raw,n225_n1
+n225_n1,N225 Technology,N225 sectors,main,M4,even,3,True,39.3714097964462,1.4480239325085992e-08,original_raw,n225_n1
+n225_n1,N225 Technology,N225 sectors,main,M4,odd,3,True,4.362464996341443,0.2248910913307865,original_raw,n225_n1
+n225_n1,N225 Technology,N225 sectors,main,M4,joint,6,True,46.065367965678114,2.8731498843505413e-08,original_raw,n225_n1
+n225_n1,N225 Technology,N225 sectors,main,M5,even,3,True,35.35904243593174,1.022989261243618e-07,original_raw,n225_n1
+n225_n1,N225 Technology,N225 sectors,main,M5,odd,3,True,4.4433007009610925,0.2174038366871533,original_raw,n225_n1
+n225_n1,N225 Technology,N225 sectors,main,M5,joint,6,True,39.56931022463591,5.534689387331194e-07,original_raw,n225_n1
+n225_n2,N225 Financials,N225 sectors,main,M2,location,3,True,5.093318043604154,0.165090089954149,original_raw,n225_n2
+n225_n2,N225 Financials,N225 sectors,main,M2,scale,3,True,77.1873294714747,1.230887795489188e-16,original_raw,n225_n2
+n225_n2,N225 Financials,N225 sectors,main,M2,joint,6,True,83.56389895547004,6.547239990016374e-16,original_raw,n225_n2
+n225_n2,N225 Financials,N225 sectors,main,M3,eta,3,True,7.495564906404475,0.0576725180649011,original_raw,n225_n2
+n225_n2,N225 Financials,N225 sectors,main,M4,even,3,True,12.314095592883907,0.0063811174602463,original_raw,n225_n2
+n225_n2,N225 Financials,N225 sectors,main,M4,odd,3,True,3.847491262817028,0.2784102165540273,original_raw,n225_n2
+n225_n2,N225 Financials,N225 sectors,main,M4,joint,6,True,14.12312061564791,0.0282906718359348,original_raw,n225_n2
+n225_n2,N225 Financials,N225 sectors,main,M5,even,3,True,11.051041939108517,0.0114530501265553,original_raw,n225_n2
+n225_n2,N225 Financials,N225 sectors,main,M5,odd,3,True,3.4453146099684666,0.3279241981412835,original_raw,n225_n2
+n225_n2,N225 Financials,N225 sectors,main,M5,joint,6,True,13.161881951526285,0.040536074926766,original_raw,n225_n2
+n225_n3,N225 Consumer Goods,N225 sectors,main,M2,location,3,True,7.399987146923504,0.0601846687331784,original_raw,n225_n3
+n225_n3,N225 Consumer Goods,N225 sectors,main,M2,scale,3,True,126.16933043404008,3.61823776013869e-27,original_raw,n225_n3
+n225_n3,N225 Consumer Goods,N225 sectors,main,M2,joint,6,True,140.86803487338338,6.572947214845114e-28,original_raw,n225_n3
+n225_n3,N225 Consumer Goods,N225 sectors,main,M3,eta,3,True,18.51810609181168,0.0003438561040836,original_raw,n225_n3
+n225_n3,N225 Consumer Goods,N225 sectors,main,M4,even,3,True,41.03693260281834,6.422314980724791e-09,original_raw,n225_n3
+n225_n3,N225 Consumer Goods,N225 sectors,main,M4,odd,3,True,2.4353376852040456,0.4870904242573756,original_raw,n225_n3
+n225_n3,N225 Consumer Goods,N225 sectors,main,M4,joint,6,True,43.15516103775399,1.086805424351778e-07,original_raw,n225_n3
+n225_n3,N225 Consumer Goods,N225 sectors,main,M5,even,3,True,42.31630041565509,3.437540199993408e-09,original_raw,n225_n3
+n225_n3,N225 Consumer Goods,N225 sectors,main,M5,odd,3,True,2.719177362132223,0.4369781341760544,original_raw,n225_n3
+n225_n3,N225 Consumer Goods,N225 sectors,main,M5,joint,6,True,44.16987050380451,6.840313268212477e-08,original_raw,n225_n3
+n225_n4,N225 Materials,N225 sectors,main,M2,location,3,True,6.063454190158604,0.1085635230001373,original_raw,n225_n4
+n225_n4,N225 Materials,N225 sectors,main,M2,scale,3,True,82.07153959603725,1.1031285887691381e-17,original_raw,n225_n4
+n225_n4,N225 Materials,N225 sectors,main,M2,joint,6,True,89.8156671386278,3.30921746084156e-17,original_raw,n225_n4
+n225_n4,N225 Materials,N225 sectors,main,M3,eta,3,True,14.136379418432565,0.0027252734781892,original_raw,n225_n4
+n225_n4,N225 Materials,N225 sectors,main,M4,even,3,True,16.5927327163465,0.0008569772779705,original_raw,n225_n4
+n225_n4,N225 Materials,N225 sectors,main,M4,odd,3,True,1.176008023714613,0.7587641411124744,original_raw,n225_n4
+n225_n4,N225 Materials,N225 sectors,main,M4,joint,6,True,26.293666741347188,0.0001962709028979,original_raw,n225_n4
+n225_n4,N225 Materials,N225 sectors,main,M5,even,3,True,16.43640196250973,0.0009227267267575,original_raw,n225_n4
+n225_n4,N225 Materials,N225 sectors,main,M5,odd,3,True,1.5781083134712612,0.6643637362178982,original_raw,n225_n4
+n225_n4,N225 Materials,N225 sectors,main,M5,joint,6,True,29.404948422820183,5.098712914916256e-05,original_raw,n225_n4
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M2,location,3,True,1.1715823715400815,0.7598277868232572,original_raw,n225_n5
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M2,scale,3,True,94.16860748088124,2.785995483696669e-20,original_raw,n225_n5
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M2,joint,6,True,95.47271518970086,2.204054126811561e-18,original_raw,n225_n5
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M3,eta,3,True,12.824165499814448,0.0050327069694032,original_raw,n225_n5
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M4,even,3,True,9.466386815368118,0.0236916500286174,original_raw,n225_n5
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M4,odd,3,True,1.901303667995773,0.5931419695386704,original_raw,n225_n5
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M4,joint,6,True,30.05425827304688,3.83857168902685e-05,original_raw,n225_n5
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M5,even,3,True,9.016028405730108,0.0290785374550179,original_raw,n225_n5
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M5,odd,3,True,2.237560893098263,0.5245879880781514,original_raw,n225_n5
+n225_n5,N225 Capital Goods/Others,N225 sectors,main,M5,joint,6,True,35.398967140379014,3.606462493318205e-06,original_raw,n225_n5
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M2,location,3,True,1.2705769890892205,0.7361314332147252,original_raw,n225_n6
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M2,scale,3,True,133.3952909330974,1.0030227461285411e-28,original_raw,n225_n6
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M2,joint,6,True,135.41477420258528,9.29232211462214e-27,original_raw,n225_n6
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M3,eta,3,True,6.241672396892191,0.1004263938081308,original_raw,n225_n6
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M4,even,3,True,13.717258340552902,0.0033164013894476,original_raw,n225_n6
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M4,odd,3,True,5.01600297771897,0.1706290711638619,original_raw,n225_n6
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M4,joint,6,True,21.42796325081536,0.0015364184583592,original_raw,n225_n6
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M5,even,3,True,12.3989119131878,0.0061344092170224,original_raw,n225_n6
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M5,odd,3,True,5.266124145354729,0.1533157093765736,original_raw,n225_n6
+n225_n6,N225 Transportation and Utilities,N225 sectors,main,M5,joint,6,True,20.298186312779137,0.0024503821348722,original_raw,n225_n6
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M2,location,3,True,11.466050097142656,0.0094551212130899,matched_raw,sp500
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M2,scale,3,True,226.76917109411173,6.90772215743385e-49,matched_raw,sp500
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M2,joint,6,True,250.77398126853143,2.802359209859758e-51,matched_raw,sp500
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M3,eta,3,True,22.52825115383484,5.063942783150533e-05,matched_raw,sp500
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M4,even,3,True,44.18597786993927,1.377951970549662e-09,matched_raw,sp500
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M4,odd,3,True,9.828567229117224,0.0200810217040716,matched_raw,sp500
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M4,joint,6,True,77.22098894162771,1.3382663260595311e-14,matched_raw,sp500
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M5,even,3,True,89.07573883216786,3.459910399972555e-19,matched_raw,sp500
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M5,odd,3,True,8.020629175619199,0.0455872812067903,matched_raw,sp500
+sp500_fixed_pca1_raw_matched,S&P 500 training-fixed PC1 raw_matched,S&P 500,main,M5,joint,6,True,109.20254229524384,2.993981678414154e-21,matched_raw,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M2,location,3,True,3.245008415892493,0.3553700766111641,pc1_residual,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M2,scale,3,True,375.8678045870234,3.7320870514499103e-81,pc1_residual,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M2,joint,6,True,377.679176509248,1.7529296116747823e-78,pc1_residual,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M3,eta,3,True,54.55009624453557,8.564226061831656e-12,pc1_residual,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M4,even,3,True,32.29000494893651,4.546350573096164e-07,pc1_residual,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M4,odd,3,True,19.3017533552711,0.0002368003114673,pc1_residual,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M4,joint,6,True,47.22635966149361,1.6863512782444787e-08,pc1_residual,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M5,even,3,True,26.850405145010185,6.328180706067684e-06,pc1_residual,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M5,odd,3,True,17.88933657263018,0.0004635795439404,pc1_residual,sp500
+sp500_fixed_pca1_residual,S&P 500 training-fixed PC1 residual,S&P 500,main,M5,joint,6,True,40.00971476578976,4.535169585658458e-07,pc1_residual,sp500
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M2,location,3,True,1.5351595487625451,0.674179619936548,matched_raw,n225
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M2,scale,3,True,95.65852085222843,1.3328734834481784e-20,matched_raw,n225
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M2,joint,6,True,99.46926647372732,3.237956209947988e-19,matched_raw,n225
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M3,eta,3,True,18.293852573681608,0.000382539381298,matched_raw,n225
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M4,even,3,True,18.944622200518285,0.0002807024246192,matched_raw,n225
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M4,odd,3,True,2.5991639315642843,0.4576361393270923,matched_raw,n225
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M4,joint,6,True,30.1139964691432,3.739457987053473e-05,matched_raw,n225
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M5,even,3,True,18.09774770811636,0.0004198962557569,matched_raw,n225
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M5,odd,3,True,3.135807264223917,0.3711566165312777,matched_raw,n225
+n225_fixed_pca1_raw_matched,Nikkei 225 training-fixed PC1 raw_matched,N225,main,M5,joint,6,True,27.70641473059452,0.0001067094957238,matched_raw,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M2,location,3,True,16.155664475402702,0.001053622061666,pc1_residual,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M2,scale,3,True,464.3469153453841,2.53887962216502e-100,pc1_residual,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M2,joint,6,True,481.8372283662371,6.865801915296468e-101,pc1_residual,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M3,eta,3,True,64.26511397422293,7.203478592504455e-14,pc1_residual,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M4,even,3,True,491.3878137827571,3.5077237410337787e-106,pc1_residual,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M4,odd,3,True,24.3430835095349,2.1181007472037623e-05,pc1_residual,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M4,joint,6,True,556.536064735809,5.504870105139834e-117,pc1_residual,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M5,even,3,True,480.36322980515206,8.591642990899568e-104,pc1_residual,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M5,odd,3,True,22.53803490393914,5.0402390440133725e-05,pc1_residual,n225
+n225_fixed_pca1_residual,Nikkei 225 training-fixed PC1 residual,N225,main,M5,joint,6,True,538.7458855714094,3.764608126519461e-113,pc1_residual,n225
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,0.2247081892765678,0.973505307951479,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,121.90532421215266,2.9996204785716634e-26,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,123.89201398614938,2.4786029270530352e-24,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,28.39306092443077,3.0035192310446417e-06,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,16.353536003528202,0.0009595859692094,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,13.612858742111818,0.0034824085068375,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,26.19405176445361,0.0002048513546768,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,18.10079411774734,0.0004192890691253,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,2.548626330425328,0.4665672756668255,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_raw_matched,SP500 Energy training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,19.617397134272093,0.0032385806596044,matched_raw,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,7.35805748409308,0.0613199465783953,pc1_residual,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,257.3521727087342,1.6809993528338828e-55,pc1_residual,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,267.5212243507064,7.35570163029914e-55,pc1_residual,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,12.368784739286724,0.0062209421037634,pc1_residual,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,9.05944410429399,0.0285108964840123,pc1_residual,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,3.0784888515432747,0.3796813404553507,pc1_residual,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,9.376366912749448,0.1534915091827558,pc1_residual,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,14.824219189928934,0.0019731971438878,pc1_residual,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,3.3273287034463586,0.3438570744645993,pc1_residual,sp500_s10
+sp500_s10_fixed_pca1_residual,SP500 Energy training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,15.26693310435533,0.0182791445699294,pc1_residual,sp500_s10
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,13.291886067393364,0.0040460800856784,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,160.32051616899864,1.5630068146945334e-34,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,180.705380674226,2.40319984282015e-36,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,14.566124500442314,0.0022275984607714,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,9.417640975706188,0.0242238575704399,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,4.341918491136971,0.22683169362639,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,27.517331831162764,0.0001158085966588,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,9.638734287979764,0.0219003535176728,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,2.4377871061274248,0.4866393277584089,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_raw_matched,SP500 Materials training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,23.321711556070973,0.0006955873895068,matched_raw,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,5.551493623868053,0.1355909638061513,pc1_residual,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,230.52100765906027,1.0670048229877982e-49,pc1_residual,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,236.97545143477805,2.4835994755755148e-48,pc1_residual,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,17.642228739627864,0.0005212618083304,pc1_residual,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,26.661751724561917,6.931331778966461e-06,pc1_residual,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,4.68063395007205,0.196733052950023,pc1_residual,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,33.05738819934496,1.0222559761161835e-05,pc1_residual,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,21.555180113011048,8.07180860562131e-05,pc1_residual,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,4.811288169304345,0.1861486956875521,pc1_residual,sp500_s15
+sp500_s15_fixed_pca1_residual,SP500 Materials training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,27.476796696410503,0.0001178568232771,pc1_residual,sp500_s15
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,5.719700124971309,0.1260729347646799,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,162.14803336274312,6.303066205121901e-35,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,173.01463380123766,1.0314901308044363e-34,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,16.70003475038436,0.0008145634655122,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,44.35419557302512,1.269101096488042e-09,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,10.829040786837217,0.0126871641752024,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,79.9884512116455,3.592545193894708e-15,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,52.53798657993588,2.3000654825522756e-11,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,9.927484830347511,0.0191927057236399,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_raw_matched,SP500 Industrials training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,72.3827027078813,1.325756001313075e-13,matched_raw,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,0.9032185840286828,0.8246510219102589,pc1_residual,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,340.252588336417,1.9239811158643616e-73,pc1_residual,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,345.32229815733194,1.558136357012302e-71,pc1_residual,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,44.366463684447645,1.2615072358438674e-09,pc1_residual,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,56.49221045656297,3.2983744099281577e-12,pc1_residual,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,1.1129155681173186,0.7739571645634921,pc1_residual,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,59.18363167663916,6.592983676394473e-11,pc1_residual,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,57.900528143381806,1.6506567719921848e-12,pc1_residual,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,1.0011740901850208,0.8009678614810966,pc1_residual,sp500_s20
+sp500_s20_fixed_pca1_residual,SP500 Industrials training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,60.82253260519416,3.0629202625291616e-11,pc1_residual,sp500_s20
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,5.15948390444708,0.1604845790329727,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,221.3614380166145,1.0195636117311015e-47,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,235.42204265210435,5.330106453127855e-48,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,19.80209891412131,0.0001865497050306,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,55.23244988878723,6.125237602830531e-12,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,123.7726329395397,1.1880476818609152e-26,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,160.92053864950302,3.7798637889120016e-32,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,9.028419660349432,0.0289154082850304,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,2.741304551623517,0.4332535927086721,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_raw_matched,SP500 Consumer Discretionary training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,33.91425530558952,6.9887823377372826e-06,matched_raw,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,6.581485918881226,0.0865037046537121,pc1_residual,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,340.5212974629828,1.6827584579429697e-73,pc1_residual,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,353.99211340709337,2.1448342151576e-73,pc1_residual,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,58.25089299325098,1.3894505865297921e-12,pc1_residual,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,9.504542047976248,0.0232830897275119,pc1_residual,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,7.23465540462942,0.0647829315366139,pc1_residual,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,15.847478570019373,0.0145964497552165,pc1_residual,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,10.680949584461755,0.013582336829423,pc1_residual,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,6.287187457285182,0.0984439155502045,pc1_residual,sp500_s25
+sp500_s25_fixed_pca1_residual,SP500 Consumer Discretionary training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,15.529279050315688,0.0165163860609237,pc1_residual,sp500_s25
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,2.787770891363517,0.4255170046389026,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,197.5256209033723,1.4447423354921298e-42,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,202.5232932203885,5.508872787787343e-41,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,8.926132079295481,0.030289294521219,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,17.608584926172664,0.0005296483115085,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,6.56471637387126,0.087144894417054,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,23.723324311357175,0.0005871204980137,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,18.3990255933518,0.0003638860626879,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,5.937708051771739,0.1146805084253769,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_raw_matched,SP500 Consumer Staples training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,26.34319567652915,0.0001921376485208,matched_raw,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,5.2406730285014165,0.1549986848505334,pc1_residual,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,250.33799955592792,5.529961358692805e-54,pc1_residual,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,258.1515373217416,7.421546222425336e-53,pc1_residual,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,6.647195971004365,0.0840347537169365,pc1_residual,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,16.28929911882046,0.0009891619388898,pc1_residual,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,9.039891020419608,0.0287651884418119,pc1_residual,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,24.93032934802469,0.0003517465390638,pc1_residual,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,19.94784113218199,0.0001740200258224,pc1_residual,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,9.125920509545988,0.0276627163860571,pc1_residual,sp500_s30
+sp500_s30_fixed_pca1_residual,SP500 Consumer Staples training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,28.44726962702136,7.738031282781207e-05,pc1_residual,sp500_s30
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,5.436524304746104,0.1424848461126941,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,182.66684938883577,2.3416709729657916e-39,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,195.33630656947207,1.864784206257188e-39,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,29.18293416666223,2.049716178976268e-06,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,33.20573563186283,2.914380674270807e-07,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,6.057562066690041,0.1088430436554363,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,53.99783680867432,7.384564201405105e-10,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,34.66461902491991,1.4341130037280116e-07,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,6.52834189724407,0.0885514459527799,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_raw_matched,SP500 Health Care training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,44.824266679607895,5.071982497805794e-08,matched_raw,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,2.7382555394072257,0.4337652644206407,pc1_residual,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,435.96943439933847,3.573559493131963e-94,pc1_residual,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,440.9949887743337,4.254724127600912e-92,pc1_residual,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,33.56871762724345,2.443185492334935e-07,pc1_residual,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,11.333586961525691,0.0100522661636816,pc1_residual,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,3.885736672164702,0.2740697842799106,pc1_residual,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,14.599303025694102,0.0236129759676329,pc1_residual,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,17.17601767409784,0.0006502068750884,pc1_residual,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,3.293115676049664,0.3486019643805897,pc1_residual,sp500_s35
+sp500_s35_fixed_pca1_residual,SP500 Health Care training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,19.97066095989604,0.0028028916136039,pc1_residual,sp500_s35
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,9.382372689133748,0.0246162108878451,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,182.25871669706177,2.868601914152316e-39,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,203.3945316518197,3.5939130869134513e-41,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,30.671543184218773,9.967611415296248e-07,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,29.69089836559079,1.602898589735323e-06,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,7.2481749432957026,0.0643944852992957,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,55.79489075747338,3.2025954577034904e-10,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,28.94645197484908,2.2982060715343698e-06,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,6.09920830095002,0.1068820310180168,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_raw_matched,SP500 Financials training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,37.55679980578403,1.371215268126514e-06,matched_raw,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,2.297049355755286,0.513086407755728,pc1_residual,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,285.88475792851386,1.1283929934256e-61,pc1_residual,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,287.68598219295416,3.552780532565822e-59,pc1_residual,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,46.38581365939172,4.695245571617514e-10,pc1_residual,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,15.517013585535418,0.0014241211833746,pc1_residual,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,6.301033780369467,0.0978483034292429,pc1_residual,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,18.642826195486776,0.0048113584393145,pc1_residual,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,11.860010698987804,0.0078784175372323,pc1_residual,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,5.942064252212703,0.114463199709215,pc1_residual,sp500_s40
+sp500_s40_fixed_pca1_residual,SP500 Financials training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,14.711730767734831,0.0226212793650029,pc1_residual,sp500_s40
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,21.360539796045494,8.859898966542231e-05,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,221.3301335596304,1.0355750218774337e-47,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,253.32245979271323,7.995423730240284e-52,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,46.99410930084692,3.4856491227932036e-10,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,29.23003864657856,2.003519225826243e-06,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,3.5207414826073093,0.3180819670232487,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,31.37213331407035,2.1521017121550288e-05,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,45.12535490855929,8.702158498681938e-10,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,3.461055560870885,0.3258483206384414,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_raw_matched,SP500 Information Technology training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,48.79325536079459,8.201138479082933e-09,matched_raw,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,2.7477801633833705,0.4321685269380907,pc1_residual,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,329.0139509761715,5.2166241957359054e-71,pc1_residual,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,332.0187070685747,1.1156320447536147e-68,pc1_residual,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,53.13817319294234,1.7131266627792168e-11,pc1_residual,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,56.02982009439045,4.139828686933808e-12,pc1_residual,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,2.6483229223613525,0.4490808230241733,pc1_residual,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,58.71685290183271,8.19967956113582e-11,pc1_residual,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,49.88137355848303,8.467696456421234e-11,pc1_residual,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,2.4465886106172645,0.4850210906201974,pc1_residual,sp500_s45
+sp500_s45_fixed_pca1_residual,SP500 Information Technology training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,51.3910354777772,2.4719183242352787e-09,pc1_residual,sp500_s45
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,0.1081908677655515,0.990836690697138,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,142.96450161436175,8.673884190075583e-31,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,146.02685476146797,5.349851071070255e-29,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,19.00101131731424,0.0002732672823932,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,29.10246283995665,2.1311091281491217e-06,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,6.003149330960509,0.1114571037889516,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,52.70490853864527,1.3452940770543943e-09,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,19.071364130264204,0.0002642651404558,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,3.77008331437409,0.2873851727116407,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_raw_matched,SP500 Communication Services training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,20.118881581967653,0.0026376247521372,matched_raw,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,8.951295754386269,0.0299454938051637,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,171.27857906860845,6.739605411158449e-37,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,197.2783599958865,7.201491686012954e-40,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,174161.1528572147,0.0,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,18.99011031465013,0.0002746891836221,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,3.881584157152952,0.2745380752570057,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,52.88578611572351,1.2370963738394816e-09,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,18.87058350079061,0.0002907711709294718,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,3.628765805796318,0.3044416045986294,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,51.344428068278184,2.525790294396562e-09,pc1_residual,sp500_s50
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,0.2102397903485466,0.9759195595817168,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,116.7303147269405,3.904270832456015e-25,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,118.18198566076764,3.924794322463455e-23,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,4.735883246667722,0.1921906157799049,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,28.181335376222677,3.327246626587872e-06,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,3.9056079855725225,0.271838812366459,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,35.41035328357788,3.588166596765193e-06,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,28.13448097878658,3.4034646635108684e-06,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,3.287955329167475,0.3493225599423821,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_raw_matched,SP500 Utilities training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,38.52304707852903,8.875593793489994e-07,matched_raw,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,6.471951118401574,0.0907752702465565,pc1_residual,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,368.720410768874,1.317776801014402e-79,pc1_residual,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,382.5583508735221,1.5680353811842627e-79,pc1_residual,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,37.04933758409013,4.4921001308267145e-08,pc1_residual,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,38.01742354215574,2.802569124577305e-08,pc1_residual,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,4.112975381015177,0.2495204099648177,pc1_residual,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,46.15764601167661,2.754123702291111e-08,pc1_residual,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,45.17652815325697,8.486932187412938e-10,pc1_residual,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,4.876175744530044,0.1810919745708808,pc1_residual,sp500_s55
+sp500_s55_fixed_pca1_residual,SP500 Utilities training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,53.01730797354733,1.1639117969463382e-09,pc1_residual,sp500_s55
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,location,3,True,4.086380344569863,0.252286416702925,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,scale,3,True,192.3650395555848,1.8823737218309e-41,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M2,joint,6,True,204.35528835533063,2.2438559500112226e-41,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M3,eta,3,True,4.872652130293222,0.1813632397931344,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,even,3,True,16.73997313104219,0.0007993151346061,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,odd,3,True,14.886014746987232,0.0019166940065525,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M4,joint,6,True,85.42298418318406,2.6978833945774194e-16,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,even,3,True,26.247390164338373,8.464957753134539e-06,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,odd,3,True,26.08109143520535,9.171723870128571e-06,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_raw_matched,SP500 Real Estate training-fixed PC1 raw_matched,S&P 500 sectors,main,M5,joint,6,True,117.17754823680404,6.37734476954674e-23,matched_raw,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M2,location,3,True,5.214458728756053,0.1567503390811318,pc1_residual,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M2,scale,3,True,337.23618896702715,8.655283351238357e-73,pc1_residual,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M2,joint,6,True,340.48563268232147,1.7009588895169853e-70,pc1_residual,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M3,eta,3,True,17.30179559735845,0.0006125840542897,pc1_residual,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M4,even,3,True,16.711475772726452,0.0008101660266215,pc1_residual,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M4,odd,3,True,3.951382749090832,0.2667619965624232,pc1_residual,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M4,joint,6,True,19.601072321348127,0.0032602357021511,pc1_residual,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M5,even,3,True,21.03658351445501,0.0001034504557795,pc1_residual,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M5,odd,3,True,4.821930666607527,0.1853103731120969,pc1_residual,sp500_s60
+sp500_s60_fixed_pca1_residual,SP500 Real Estate training-fixed PC1 residual,S&P 500 sectors,main,M5,joint,6,True,25.574429541920694,0.0002671683413754,pc1_residual,sp500_s60
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M2,location,3,True,4.151210139283674,0.2455922973629013,matched_raw,n225_n1
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M2,scale,3,True,91.52419258845362,1.0307463813416052e-19,matched_raw,n225_n1
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M2,joint,6,True,100.27221764656376,2.2016891693798266e-19,matched_raw,n225_n1
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M3,eta,3,True,23.19737718251229,3.673258238006682e-05,matched_raw,n225_n1
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M4,even,3,True,39.37111552212125,1.4482318500115009e-08,matched_raw,n225_n1
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M4,odd,3,True,4.362456990282191,0.2248918445099129,matched_raw,n225_n1
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M4,joint,6,True,46.064947577617154,2.8737036851818574e-08,matched_raw,n225_n1
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M5,even,3,True,35.35865810033886,1.0231805956004533e-07,matched_raw,n225_n1
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M5,odd,3,True,4.443250172718629,0.217408444033645,matched_raw,n225_n1
+n225_n1_fixed_pca1_raw_matched,N225 Technology training-fixed PC1 raw_matched,N225 sectors,main,M5,joint,6,True,39.56872285251376,5.536158993928357e-07,matched_raw,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M2,location,3,True,8.609453500861589,0.0349603615117955,pc1_residual,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M2,scale,3,True,323.35958996133974,8.739307754135834e-70,pc1_residual,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M2,joint,6,True,335.180797535501,2.339190302810107e-69,pc1_residual,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M3,eta,3,True,50.16920717884517,7.353011302733695e-11,pc1_residual,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M4,even,3,True,126.12093967306596,3.706150164710859e-27,pc1_residual,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M4,odd,3,True,7.031956195375557,0.0708861646987358,pc1_residual,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M4,joint,6,True,130.33799266981617,1.0910452922604238e-25,pc1_residual,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M5,even,3,True,111.63964338496444,4.8690912948131356e-24,pc1_residual,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M5,odd,3,True,7.223667884064374,0.0651002984249305,pc1_residual,n225_n1
+n225_n1_fixed_pca1_residual,N225 Technology training-fixed PC1 residual,N225 sectors,main,M5,joint,6,True,114.9715549190533,1.8511497254467499e-22,pc1_residual,n225_n1
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M2,location,3,True,5.093294659365622,0.1650917393913147,matched_raw,n225_n2
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M2,scale,3,True,77.187215439154,1.230957091402933e-16,matched_raw,n225_n2
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M2,joint,6,True,83.56378976283499,6.547580752630384e-16,matched_raw,n225_n2
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M3,eta,3,True,7.495653767763093,0.0576702304885415,matched_raw,n225_n2
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M4,even,3,True,12.314073739903144,0.0063811822717812,matched_raw,n225_n2
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M4,odd,3,True,3.847514351181178,0.2784075776834973,matched_raw,n225_n2
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M4,joint,6,True,14.123135405564442,0.028290513744169,matched_raw,n225_n2
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M5,even,3,True,11.051194052256228,0.0114522464891458,matched_raw,n225_n2
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M5,odd,3,True,3.443920838157322,0.3281085650723296,matched_raw,n225_n2
+n225_n2_fixed_pca1_raw_matched,N225 Financials training-fixed PC1 raw_matched,N225 sectors,main,M5,joint,6,True,13.161449742256837,0.0405425639060952,matched_raw,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M2,location,3,True,5.62099358634433,0.1315783208983046,pc1_residual,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M2,scale,3,True,190.04873740705057,5.957732331792616e-41,pc1_residual,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M2,joint,6,True,196.4573601717846,1.0767498314120349e-39,pc1_residual,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M3,eta,3,True,3.7047742113276,0.295158473822316,pc1_residual,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M4,even,3,True,28.35176646729028,3.0640903750955287e-06,pc1_residual,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M4,odd,3,True,9.708373432861723,0.0212148839789136,pc1_residual,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M4,joint,6,True,40.027000581167286,4.499833898392615e-07,pc1_residual,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M5,even,3,True,26.569205030843065,7.24784816293376e-06,pc1_residual,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M5,odd,3,True,9.59212500920889,0.0223712337450577,pc1_residual,n225_n2
+n225_n2_fixed_pca1_residual,N225 Financials training-fixed PC1 residual,N225 sectors,main,M5,joint,6,True,37.56237105318717,1.367785112645541e-06,pc1_residual,n225_n2
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M2,location,3,True,7.399944452201198,0.0601858142908518,matched_raw,n225_n3
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M2,scale,3,True,126.1692734055521,3.618340127844026e-27,matched_raw,n225_n3
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M2,joint,6,True,140.86792843696185,6.573287232377796e-28,matched_raw,n225_n3
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M3,eta,3,True,18.518139706732576,0.0003438506076455,matched_raw,n225_n3
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M4,even,3,True,41.037091763336136,6.421815798280294e-09,matched_raw,n225_n3
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M4,odd,3,True,2.435378075263496,0.4870829831990428,matched_raw,n225_n3
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M4,joint,6,True,43.15530622796864,1.0867335052271008e-07,matched_raw,n225_n3
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M5,even,3,True,42.316648354440815,3.436955730310331e-09,matched_raw,n225_n3
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M5,odd,3,True,2.719222356100498,0.4369705340957509,matched_raw,n225_n3
+n225_n3_fixed_pca1_raw_matched,N225 Consumer Goods training-fixed PC1 raw_matched,N225 sectors,main,M5,joint,6,True,44.17022647326144,6.8392011669241e-08,matched_raw,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M2,location,3,True,4.222171850240244,0.2384514163245773,pc1_residual,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M2,scale,3,True,339.68776796286335,2.5497131864725718e-73,pc1_residual,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M2,joint,6,True,347.7519741932096,4.688812126135606e-72,pc1_residual,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M3,eta,3,True,28.27156601428456,3.1852328375312222e-06,pc1_residual,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M4,even,3,True,42.71128304834701,2.8340469922663444e-09,pc1_residual,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M4,odd,3,True,5.943480254872205,0.1143926472614864,pc1_residual,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M4,joint,6,True,53.09044491635813,1.125099549691681e-09,pc1_residual,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M5,even,3,True,37.385388051582815,3.813642597910242e-08,pc1_residual,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M5,odd,3,True,5.897373535443306,0.1167113897928856,pc1_residual,n225_n3
+n225_n3_fixed_pca1_residual,N225 Consumer Goods training-fixed PC1 residual,N225 sectors,main,M5,joint,6,True,46.22025571729106,2.6761749154302458e-08,pc1_residual,n225_n3
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M2,location,3,True,6.06413291262583,0.1085313687447588,matched_raw,n225_n4
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M2,scale,3,True,82.07299685787551,1.102334664128368e-17,matched_raw,n225_n4
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M2,joint,6,True,89.8157430797771,3.309097281673923e-17,matched_raw,n225_n4
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M3,eta,3,True,14.135911897131315,0.0027258708599355,matched_raw,n225_n4
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M4,even,3,True,16.594564951569318,0.0008562349476619,matched_raw,n225_n4
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M4,odd,3,True,1.1765806857305638,0.7586265351113797,matched_raw,n225_n4
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M4,joint,6,True,26.30143970024685,0.0001956164835334,matched_raw,n225_n4
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M5,even,3,True,16.43663741954557,0.0009226240240794,matched_raw,n225_n4
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M5,odd,3,True,1.578603743785132,0.664250949107251,matched_raw,n225_n4
+n225_n4_fixed_pca1_raw_matched,N225 Materials training-fixed PC1 raw_matched,N225 sectors,main,M5,joint,6,True,29.41201230840918,5.083012951674571e-05,matched_raw,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M2,location,3,True,6.683436921831611,0.0827022482961981,pc1_residual,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M2,scale,3,True,421.2825799631351,5.431304516023854e-91,pc1_residual,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M2,joint,6,True,430.92689144187,6.239688068039307e-90,pc1_residual,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M3,eta,3,True,41.62905930473256,4.809314365134744e-09,pc1_residual,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M4,even,3,True,159.22395178849968,2.6952854340240693e-34,pc1_residual,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M4,odd,3,True,21.46621673636618,8.422958193964656e-05,pc1_residual,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M4,joint,6,True,176.4588787079784,1.9163826184755488e-35,pc1_residual,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M5,even,3,True,128.96066969619216,9.05825231088915e-28,pc1_residual,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M5,odd,3,True,18.654536224994835,0.0003222526285516,pc1_residual,n225_n4
+n225_n4_fixed_pca1_residual,N225 Materials training-fixed PC1 residual,N225 sectors,main,M5,joint,6,True,145.25939087571084,7.77105821789029e-29,pc1_residual,n225_n4
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M2,location,3,True,1.1715785910451184,0.7598286955625867,matched_raw,n225_n5
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M2,scale,3,True,94.16865353378604,2.7859320000416646e-20,matched_raw,n225_n5
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M2,joint,6,True,95.47276366481518,2.2040028978356e-18,matched_raw,n225_n5
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M3,eta,3,True,12.82414206498799,0.0050327619306473,matched_raw,n225_n5
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M4,even,3,True,9.46740206514674,0.0236806883584009,matched_raw,n225_n5
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M4,odd,3,True,1.901114786714772,0.5931821274950626,matched_raw,n225_n5
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M4,joint,6,True,30.055518273889938,3.836454571203318e-05,matched_raw,n225_n5
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M5,even,3,True,9.016019335762296,0.0290786571893318,matched_raw,n225_n5
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M5,odd,3,True,2.2375437510853216,0.5245913298759686,matched_raw,n225_n5
+n225_n5_fixed_pca1_raw_matched,N225 Capital Goods/Others training-fixed PC1 raw_matched,N225 sectors,main,M5,joint,6,True,35.39955221039462,3.6055201163818735e-06,matched_raw,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M2,location,3,True,2.8368903498196283,0.4174630577523249,pc1_residual,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M2,scale,3,True,314.43474279104964,7.472107823549369e-68,pc1_residual,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M2,joint,6,True,320.3820561250094,3.496140773007035e-66,pc1_residual,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M3,eta,3,True,19.05108629814384,0.0002668291296519,pc1_residual,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M4,even,3,True,102.775839413281,3.9315268742921594e-22,pc1_residual,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M4,odd,3,True,5.2385451188286565,0.1551401814670987,pc1_residual,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M4,joint,6,True,116.88915787374192,7.330933333043094e-23,pc1_residual,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M5,even,3,True,94.66582036665449,2.1783719817185416e-20,pc1_residual,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M5,odd,3,True,5.54606773789364,0.1359090736977339,pc1_residual,n225_n5
+n225_n5_fixed_pca1_residual,N225 Capital Goods/Others training-fixed PC1 residual,N225 sectors,main,M5,joint,6,True,108.15318611264036,4.964566370127402e-21,pc1_residual,n225_n5
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M2,location,3,True,1.270473934058126,0.7361559848176897,matched_raw,n225_n6
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M2,scale,3,True,133.40872361763573,9.963581006803688e-29,matched_raw,n225_n6
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M2,joint,6,True,135.42851100515847,9.230562215845906e-27,matched_raw,n225_n6
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M3,eta,3,True,6.240171981287401,0.1004923942729849,matched_raw,n225_n6
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M4,even,3,True,13.715500267512567,0.003319130950504,matched_raw,n225_n6
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M4,odd,3,True,5.015442623143701,0.1706698457333926,matched_raw,n225_n6
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M4,joint,6,True,21.425689676591837,0.0015378696628873,matched_raw,n225_n6
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M5,even,3,True,12.397672639995664,0.0061379451424849,matched_raw,n225_n6
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M5,odd,3,True,5.265696656341505,0.1533438344614577,matched_raw,n225_n6
+n225_n6_fixed_pca1_raw_matched,N225 Transportation and Utilities training-fixed PC1 raw_matched,N225 sectors,main,M5,joint,6,True,20.2956058166716,0.0024529824592039,matched_raw,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M2,location,3,True,7.666924200143638,0.0534210676071717,pc1_residual,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M2,scale,3,True,194.15803502221289,7.715354961506541e-42,pc1_residual,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M2,joint,6,True,200.00514039622223,1.892836104950964e-40,pc1_residual,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M3,eta,3,True,9.496864462677047,0.023364740688667,pc1_residual,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M4,even,3,True,8.664945135298348,0.0340938176108428,pc1_residual,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M4,odd,3,True,3.442677442748742,0.3282731173115221,pc1_residual,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M4,joint,6,True,12.428665519869798,0.0530612049518408,pc1_residual,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M5,even,3,True,8.378990914750588,0.038795276509143,pc1_residual,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M5,odd,3,True,3.4795131104663994,0.3234289383554333,pc1_residual,n225_n6
+n225_n6_fixed_pca1_residual,N225 Transportation and Utilities training-fixed PC1 residual,N225 sectors,main,M5,joint,6,True,12.194561275373594,0.0577664935450265,pc1_residual,n225_n6

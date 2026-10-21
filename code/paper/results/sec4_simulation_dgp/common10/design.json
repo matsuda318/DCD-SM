@@ -1,0 +1,215 @@
+{
+  "source_sha256": "359976328fcd68463b4bef4999839037f16b767e03889e313002b152a2999569",
+  "baseline_source_sha256": "43fa3e5b774ae916f6ce3cb8e6ab0b17f157a7fdbc36a48019080735bca358c8",
+  "baseline_output": "arc_sm_cross_section_size_simulation\\output_symmetric_t_observed_N_scaled",
+  "design": {
+    "training": 1886,
+    "oos": 642,
+    "burn": 500,
+    "seed": 20261006,
+    "common_share": 0.1,
+    "sample_sizes": [
+      20,
+      50,
+      100
+    ]
+  },
+  "combinations": [
+    [
+      "case0_static",
+      "heterogeneous_factor",
+      20
+    ],
+    [
+      "case0_static",
+      "heterogeneous_factor",
+      50
+    ],
+    [
+      "case0_static",
+      "heterogeneous_factor",
+      100
+    ],
+    [
+      "case1_eta",
+      "heterogeneous_factor",
+      20
+    ],
+    [
+      "case1_eta",
+      "heterogeneous_factor",
+      50
+    ],
+    [
+      "case1_eta",
+      "heterogeneous_factor",
+      100
+    ],
+    [
+      "case2_even",
+      "heterogeneous_factor",
+      20
+    ],
+    [
+      "case2_even",
+      "heterogeneous_factor",
+      50
+    ],
+    [
+      "case2_even",
+      "heterogeneous_factor",
+      100
+    ],
+    [
+      "case3_eta_even",
+      "heterogeneous_factor",
+      20
+    ],
+    [
+      "case3_eta_even",
+      "heterogeneous_factor",
+      50
+    ],
+    [
+      "case3_eta_even",
+      "heterogeneous_factor",
+      100
+    ],
+    [
+      "case4_eta_even_odd",
+      "heterogeneous_factor",
+      20
+    ],
+    [
+      "case4_eta_even_odd",
+      "heterogeneous_factor",
+      50
+    ],
+    [
+      "case4_eta_even_odd",
+      "heterogeneous_factor",
+      100
+    ]
+  ],
+  "reference_N": 500,
+  "original_calibration": {
+    "anchor": [
+      0.0,
+      0.0,
+      -5.047916853890772,
+      0.0
+    ],
+    "eta_kappa": [
+      -5.7457357231521895,
+      -4.81592306262939,
+      30.255739112088794
+    ],
+    "endpoint_kappa": [
+      [
+        -0.07490647551121857,
+        10.692708239563094,
+        259.19562117125366
+      ],
+      [
+        1.9760053323381974,
+        -4.297595833932288,
+        63.792928327083544
+      ]
+    ]
+  },
+  "empirical_calibration_file": "arc_sm_joint_location_scale_hansen_parity\\output_symmetric_t_m1_m5_calibration\\sp500\\estimation.json",
+  "empirical_calibration_sha256": "38e6852519e7d522686e77414c30d8ffb3269dcd36294722c0e3600c83efb2ff",
+  "coefficient_rule": "sqrt(N/500) times SP500 M3 eta and M5 even/odd; same in both dependence settings",
+  "effective_calibration": {
+    "20": {
+      "anchor": [
+        0.0,
+        0.0,
+        -5.047916853890772,
+        0.0
+      ],
+      "eta_kappa": [
+        -1.149147144630438,
+        -0.9631846125258781,
+        6.051147822417759
+      ],
+      "endpoint_kappa": [
+        [
+          -0.014981295102243714,
+          2.138541647912619,
+          51.83912423425073
+        ],
+        [
+          0.39520106646763953,
+          -0.8595191667864577,
+          12.75858566541671
+        ]
+      ],
+      "coefficient_multiplier": 0.2
+    },
+    "50": {
+      "anchor": [
+        0.0,
+        0.0,
+        -5.047916853890772,
+        0.0
+      ],
+      "eta_kappa": [
+        -1.8169611718555578,
+        -1.5229285914042605,
+        9.567704788604107
+      ],
+      "endpoint_kappa": [
+        [
+          -0.023687507411107627,
+          3.3813312392668733,
+          81.96485224433216
+        ],
+        [
+          0.6248677518826676,
+          -1.359019129807677,
+          20.17309521254589
+        ]
+      ],
+      "coefficient_multiplier": 0.31622776601683794
+    },
+    "100": {
+      "anchor": [
+        0.0,
+        0.0,
+        -5.047916853890772,
+        0.0
+      ],
+      "eta_kappa": [
+        -2.5695711315434417,
+        -2.153746268489659,
+        13.530777872825935
+      ],
+      "endpoint_kappa": [
+        [
+          -0.033499194239601605,
+          4.7819244974470365,
+          115.91580568184136
+        ],
+        [
+          0.8836964494020546,
+          -1.9219432848984985,
+          28.52906484462615
+        ]
+      ],
+      "coefficient_multiplier": 0.4472135954999579
+    }
+  },
+  "common_share": "mean individual transformed-return explained variance 10% over actual N, calibrated daily",
+  "loading_distribution": "iid Uniform[-0.1,1.1], fixed within replication, prefix of same 100-vector across N",
+  "likelihood": "sum of daily cross-sectional means; unit date weights, burn-in weights zero",
+  "inference": "daily mean score/Hessian sandwich Wald, lag 0",
+  "warmup": "all 500 artificial warmup observations filter each candidate; no warmup likelihood or meat",
+  "common_case_extra_score_variance_rescaling": false,
+  "generating_and_observed_N_equal": true,
+  "shared_master_density": false,
+  "iid_reused": true,
+  "N1_factor_case": "not rerun; same univariate law as iid",
+  "change_from_baseline": "common_share 0.30 -> 0.10 only; factor N=20,50,100 rerun",
+  "same_seed_and_loading_stream": true
+}

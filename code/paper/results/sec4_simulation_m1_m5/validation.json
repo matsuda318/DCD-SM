@@ -1,0 +1,20 @@
+{
+  "completed": 3500,
+  "generation_failures": 0,
+  "models": 17477,
+  "valid_tests": 34904,
+  "invalid_tests": 27,
+  "oos_settings": 3500,
+  "oos_models": 17477,
+  "failure_records": 23,
+  "m1_boundary_solutions": 0,
+  "maximum_wald_error": 0.0,
+  "maximum_oos_mean_error": 3.552713678800501e-15,
+  "expected": 3500,
+  "complete": true,
+  "passed": true,
+  "source_sha256": "22386278fa2ab72ffaf65d8a245e99d51670059674b33c58b66ddc6708a685ea",
+  "generator_source_sha256": "43fa3e5b774ae916f6ce3cb8e6ab0b17f157a7fdbc36a48019080735bca358c8",
+  "auditor_sha256": "ed72a733f6849006783e2efac788a0474c272761af77af7b1dc6928935137335",
+  "audited_utc": "2026-10-14T19:15:44.789587+00:00"
+}

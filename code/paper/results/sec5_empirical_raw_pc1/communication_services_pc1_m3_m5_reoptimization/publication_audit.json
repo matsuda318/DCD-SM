@@ -1,0 +1,16 @@
+{
+  "only_intended_panel_and_models_changed": true,
+  "changed_rows": {
+    "parameters": 2,
+    "training_log_likelihoods": 2,
+    "wald_tests": 4,
+    "oos_levels": 2,
+    "oos_comparisons": 36,
+    "oos_improvement_percent": 36,
+    "fit_diagnostics": 2
+  },
+  "all_570_tests_numerically_valid": true,
+  "all_wald_and_oos_counts_recomputed": true,
+  "M1_M2_M4_unchanged": true,
+  "input_sha256_unchanged": true
+}

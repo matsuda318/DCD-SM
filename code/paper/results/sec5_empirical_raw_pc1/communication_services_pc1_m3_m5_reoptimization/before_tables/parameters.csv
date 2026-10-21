@@ -1,0 +1,3 @@
+dataset,label,family,role,model,coefficients,free_dimension,lambda_fixed_zero,variant,base_dataset
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M3,"[[13.784711905624375, 0.0], [108.34268856538158, 0.0], [-18.840300646930782, 0.0]]",3,True,pc1_residual,sp500_s50
+sp500_s50_fixed_pca1_residual,SP500 Communication Services training-fixed PC1 residual,S&P 500 sectors,main,M5,"[[0.4722835248733014, -4.350689543578842, 141.68272549100254], [6.340170576970071, -0.9988225243634951, -22.70654971926393]]",6,True,pc1_residual,sp500_s50

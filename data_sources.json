@@ -1,0 +1,49 @@
+{
+  "sample": {
+    "start": "2016-07-05",
+    "end": "2026-07-24",
+    "training_end": "2023-12-29",
+    "price_query_start": "2016-06-20",
+    "price_query_end_exclusive": "2026-07-30"
+  },
+  "prices": {
+    "provider_url": "https://finance.yahoo.com/",
+    "download_help_url": "https://help.yahoo.com/kb/finance/download-historical-data-yahoo-finance-sln2311.html",
+    "chart_endpoint_template": "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}",
+    "frequency": "daily",
+    "price_field": "adjusted close when available, otherwise close",
+    "returns": "log(P_t/P_previous)",
+    "maximum_gap_calendar_days": 7,
+    "positive_current_volume": true
+  },
+  "sp500_membership": {
+    "repository_url": "https://github.com/fja05680/sp500",
+    "download_url": "https://raw.githubusercontent.com/fja05680/sp500/master/S%26P%20500%20Historical%20Components%20%26%20Changes%20%28Updated%29.csv",
+    "retained_last_snapshot": "2026-06-30",
+    "carry_forward_to": "2026-07-24",
+    "retained_csv_sha256": "0a56d59ab5b6313064df9484312cd048a0103341195e5a6154feb6ccb74066e8",
+    "retained_csv_hash_scope": "retained CSV serialized after date parsing and sample-end filtering; not the raw HTTP response",
+    "retained_membership_records_sha256": "0f91564bdcf23b78197405c8cccce51cc69c97e0037e374ecf86096274bb5371"
+  },
+  "nikkei_membership": {
+    "provider_url": "https://indexes.nikkei.co.jp/nkave/index/profile?idx=nk225",
+    "components_url": "https://indexes.nikkei.co.jp/nkave/archives/file/nikkei_stock_average_weight_en.csv",
+    "changes_url": "https://indexes.nikkei.co.jp/nkave/archives/file/history_of_nikkei_stock_average_component_changes_en.pdf",
+    "retained_components_date": "2026-08-31",
+    "retained_components_sha256": "a776222d5e2a7c4315b3a4dd7d58ef23c58792168c4afe9c8193353cc7cd80f3",
+    "retained_changes_sha256": "8f0cbdd0524ad7fdb6d7a4ac69c52ca4f638f3d8ae224e23148b46f8bb148846",
+    "minimum_daily_constituents": 150
+  },
+  "sp500_classification": {
+    "repository_url": "https://github.com/datasets/s-and-p-500-companies",
+    "retained_git_head": "493df85c63794d76e8e01a3d0d2ac3c36c55fb59",
+    "requires_git_history": true,
+    "snapshot_records": "source_records/sp500_classification_snapshot_commits.csv",
+    "audited_overrides": "code/analysis/build_sp500_n225_sector_daily_2016_2026.py"
+  },
+  "nikkei_classification": {
+    "current_source": "https://indexes.nikkei.co.jp/nkave/archives/file/nikkei_stock_average_weight_en.csv",
+    "former_constituents": 43,
+    "audited_override_code": "code/analysis/build_sp500_n225_sector_daily_2016_2026.py"
+  }
+}
